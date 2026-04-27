@@ -69,10 +69,10 @@ secrets.py
 # ================================
 # LOCAL CONFIG OVERRIDES
 # ================================
-config/
-config/config.local.yaml
-config/config.local.py
-config_local.py
+#config/
+#config/config.local.yaml
+#config/config.local.py
+#config_local.py
 
 # ================================
 # PYTEST / COVERAGE
