@@ -13,7 +13,7 @@ TC002 Logout functionality
 
     [Tags]  Functional
     Home Page
-    Login the user    neverusedind@gmail.com     Pankaj@123
+    Login the user    ${USER_EMAIL}   ${USER_PWD}
     Logout the user
 
     Sleep   3s

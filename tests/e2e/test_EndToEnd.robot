@@ -15,7 +15,7 @@ Test Teardown   Close Application
 TC006 Complete user journey (Login to Logout)
     [Tags]  E2E
     Home Page
-    Login the user  neverusedind@gmail.com   Pankaj@123
+    Login the user  ${USER_EMAIL}   ${USER_PWD}
     Search the product      shoes
     Add to cart
 

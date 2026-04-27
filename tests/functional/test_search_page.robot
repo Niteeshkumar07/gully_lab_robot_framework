@@ -15,7 +15,7 @@ TC003 Search Product
     [Tags]  Functional
 
     Home Page
-    Login the user  neverusedind@gmail.com  Pankaj@123
+    Login the user  ${USER_EMAIL}   ${USER_PWD}
     Search the product      shoes
     Page Should Not Contain    No results found for
     Add to cart

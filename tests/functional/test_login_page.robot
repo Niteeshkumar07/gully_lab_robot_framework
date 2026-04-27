@@ -11,7 +11,7 @@ Test Teardown   Close Application
 TC001 Login User
     [Tags]  Functional
     Home Page
-    Login the user  neverusedind@gmail.com     Pankaj@123
+    Login the user  ${USER_EMAIL}   ${USER_PWD}
     Sleep    3s
 
 TC007 Login With invalid credentials

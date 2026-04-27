@@ -23,7 +23,7 @@ Add to cart
 
     Select From List By Index   ${size}    3
 
-    Wait Until Element Is Enabled    ${add_cart}
+#    Wait Until Element Is Enabled    ${add_cart}
     Click Element    ${add_cart}
 
     Sleep    5s

@@ -13,7 +13,7 @@ Test Teardown  Close Application
 TC004 Add Product to cart
     [Tags]  Functional
     Home Page
-    Login the user    neverusedind@gmail.com    Pankaj@123
+    Login the user    ${USER_EMAIL}   ${USER_PWD}
     Search the product    shoes
     Add to cart
     
