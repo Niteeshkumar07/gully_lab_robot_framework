@@ -12,6 +12,8 @@ robotframework-datadriver[XLS]==1.11.2
 
 #Load config for env
 python-dotenv==1.2.2
+PyYAML==6.0.3
 
 selenium==4.24.0
 webdriver-manager==4.0.2
+undetected-chromedriver==3.5.5

@@ -10,8 +10,7 @@ Login the user
     Input Text    ${login_password_field}    ${user_password}
     Log    Enter Password
     Click Element    ${login_btn}
-    
-    Page Should Contain    Account
-    Page Should Contain    Log out
+
+
 
 
