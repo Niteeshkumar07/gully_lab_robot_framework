@@ -3,8 +3,8 @@ Resource    ../../resources/pages/home_page.robot
 Resource    ../../resources/common_resource.robot
 Resource    ../../resources/pages/login_page.robot
 
-#Suite Setup   Load Environment
-Test Setup  Open Application        https://gullylabs.com/
+Suite Setup   Load Environment
+Test Setup  Open Application
 Test Teardown   Close Application
 
 *** Test Cases ***

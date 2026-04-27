@@ -7,8 +7,8 @@ Resource    ../../resources/pages/Cart_page.robot
 Resource    ../../resources/pages/logout_page.robot
 
 
-#Suite Setup   Load Environment
-Test Setup  Open Application    https://gullylabs.com/
+Suite Setup   Load Environment
+Test Setup  Open Application
 Test Teardown   Close Application
 
 *** Test Cases
